@@ -1,2 +1,2 @@
 # security-advisories
-Public vulnerability advisories from  open source repo
+Public vulnerability advisories from Open Source Repo
