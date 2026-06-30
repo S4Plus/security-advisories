@@ -89,7 +89,7 @@ allocated by:
 #2 t2p_readwrite_pdf_image tools/tiff2pdf.c:2729
 ```
 
-A PoC generator and full ASan logs are available privately to upstream maintainers and distribution security teams for triage. They are intentionally not included in this public writeup.
+The reporters can provide a PoC generator and full ASan logs privately to upstream maintainers and distribution security teams for triage. They are intentionally not included in this public writeup.
 
 ## Fixed Version
 
