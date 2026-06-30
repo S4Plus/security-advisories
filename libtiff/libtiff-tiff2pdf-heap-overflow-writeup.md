@@ -13,6 +13,11 @@ The issue was confirmed with AddressSanitizer on libtiff 4.5.0. The confirmed im
 - Zixiang Zhou, School of Computer Science and Technology, University of Science and Technology of China, `zkd25zzx@mail.ustc.edu.cn`
 - Jinbao Chen, School of Computer Science and Technology, University of Science and Technology of China, `zkd18cjb@mail.ustc.edu.cn`
 
+## Problem Type
+
+- CWE-197: Numeric Truncation Error
+- CWE-122: Heap-based Buffer Overflow
+
 ## Affected Versions
 
 - Confirmed affected with ASan: libtiff 4.5.0
@@ -111,7 +116,7 @@ Initial downstream checks on 2026-06-29 indicated that some Debian and Ubuntu pa
 
 ## Severity
 
-Suggested initial severity: Medium.
+Suggested initial severity: Medium for the confirmed CLI-triggered impact; potentially High in automated conversion services that process untrusted TIFF files with the allocation limit disabled or raised.
 
 Confirmed impact:
 
@@ -137,5 +142,5 @@ This corresponds to a local file-processing utility, user interaction, high atta
 
 - 2026-06-29: Issue reported to libtiff upstream maintainers.
 - 2026-06-29: Issue reported to the Debian Security Team for downstream triage.
+- 2026-06-29: Debian Security Team suggested public tracking and requesting a CVE ID after preparing a public writeup.
 - 2026-06-29: Public writeup prepared.
-
