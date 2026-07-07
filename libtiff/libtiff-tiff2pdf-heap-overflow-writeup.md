@@ -142,5 +142,7 @@ This corresponds to a local file-processing utility, user interaction, high atta
 
 - 2026-06-29: Issue reported to libtiff upstream maintainers.
 - 2026-06-29: Issue reported to the Debian Security Team for downstream triage.
+- 2026-06-29: Issue reported to the Ubuntu Security Team for downstream triage.
 - 2026-06-29: Debian Security Team suggested public tracking and requesting a CVE ID after preparing a public writeup.
 - 2026-06-29: Public writeup prepared.
+- 2026-07-07: Ubuntu Security Team (Seth Arnold) acknowledged the report, confirming the issue sounds like a security issue that deserves a CVE, and stated he will work to get one assigned.

@@ -2,6 +2,10 @@
 
 Public vulnerability advisories and technical writeups from S4Plus.
 
+## Projects
+
+- [libtiff](libtiff/README.md) — advisories for the libtiff project
+
 ## Advisories
 
 - [tiff2pdf Heap Buffer Overflow in libtiff before 4.7.1](libtiff/libtiff-tiff2pdf-heap-overflow-writeup.md)
